@@ -1,5 +1,5 @@
-![Maintenance](https://img.shields.io/badge/Maintained-Yes-success?style=for-the-badge)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-blue?style=for-the-badge)
+  ![Maintenance](https://img.shields.io/badge/Maintained-Yes-success?style=for-the-badge)
+                                                                                          ![Contributions](https://img.shields.io/badge/Contributions-Welcome-blue?style=for-the-badge)
 
 ---
 
