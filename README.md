@@ -1261,6 +1261,6 @@ If this repository helped you discover useful Windows tools, consider giving it 
 
 # 📄 License
 
-This repository is licensed under the [MIT License](LICENSE).
+This repository is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE).
 
 The software listed in this repository belongs to their respective authors and is distributed under their own licenses.
