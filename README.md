@@ -62,7 +62,6 @@ These are some of the most respected Windows utilities and excellent starting po
 | [Everything](https://www.voidtools.com/) | Lightning-fast file search that dramatically improves Windows file searching. |
 | [Microsoft PowerToys](https://github.com/microsoft/PowerToys) | Official Microsoft utility suite adding powerful productivity features to Windows. |
 | [Chris Titus Tech WinUtil](https://christitus.com/windows-tool/) | Popular Windows configuration and optimization utility with tweaks, maintenance tools, and package management. |
-| [HWiNFO](https://www.hwinfo.com/) | Advanced hardware monitoring and diagnostics tool trusted by enthusiasts and professionals. |
 | [Bulk Crap Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller) | Powerful open-source uninstaller for removing programs and leftover files. |
 | [Ventoy](https://www.ventoy.net/) | Allows multiple ISO files to boot from a single USB drive without reformatting. |
 
@@ -356,9 +355,7 @@ Improve Windows performance, manage resources, monitor hardware, and optimize sy
 | [Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns) | ⭐ | 🆓 | ❌ | 🟡 Intermediate | Advanced startup manager that shows programs, services, drivers, and scheduled tasks launched with Windows. |
 | [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) | ⭐ | 🆓 | ❌ | 🟡 Intermediate | Advanced Task Manager replacement for viewing processes, DLLs, and system activity. |
 | [Process Lasso](https://bitsum.com/) | ⭐ | 🆓 / Paid | ❌ | 🟡 Intermediate | Helps manage CPU priorities, process scheduling, and system responsiveness. |
-| [HWiNFO](https://www.hwinfo.com/) | ⭐ | 🆓 | ❌ | 🟢 Easy | Detailed hardware monitoring tool for temperatures, clocks, voltages, and sensors. |
 | [MSI Afterburner](https://www.msi.com/Landing/afterburner/graphics-cards) | ⭐ | 🆓 | ❌ | 🟡 Intermediate | GPU monitoring and overclocking utility with in-game performance overlays. |
-| [BCUninstaller](https://www.bcuninstaller.com/) | ⭐ | 🆓 | 🔓 | 🟢 Easy | Removes unwanted programs and leftover files more thoroughly than Windows uninstall tools. |
 
 ---
 
@@ -416,3 +413,269 @@ Perfect for NVIDIA users who want a cleaner, lightweight graphics driver install
 
 ---
 
+# 🚗 Driver Utilities
+
+Manage, clean, update, and customize hardware drivers for better stability and performance.
+
+> [!WARNING]
+> Driver tools can affect system stability. Always create a restore point before removing or replacing drivers.
+
+| Tool | ⭐ | 💰 | 🔓 | Difficulty | Description |
+|------|:--:|:--:|:--:|:----------:|-------------|
+| [Display Driver Uninstaller (DDU)](https://www.wagnardsoft.com/display-driver-uninstaller-DDU-) | ⭐ | 🆓 | ❌ | 🔴 Advanced | Completely removes GPU drivers to allow clean graphics driver installations. |
+| [NVCleanstall](https://www.techpowerup.com/nvcleanstall/) | ⭐ | 🆓 | ❌ | 🟡 Intermediate | Creates lightweight NVIDIA driver installations by removing unnecessary components. |
+| [Snappy Driver Installer Origin](https://www.snappy-driver-installer.org/) | ⭐ | 🆓 | 🔓 | 🟡 Intermediate | Offline driver installer and updater designed for users who need manual driver management. |
+| [DriverStore Explorer](https://github.com/lostindark/DriverStoreExplorer) | ⭐ | 🆓 | 🔓 | 🟡 Intermediate | Allows advanced users to view and remove old driver packages from the Windows Driver Store. |
+
+---
+
+## 🏅 Editor's Picks
+
+🥇 **DDU**
+
+The standard tool for completely removing graphics drivers before reinstalling.
+
+🥈 **NVCleanstall**
+
+Great for NVIDIA users who want a cleaner driver installation.
+
+🥉 **DriverStore Explorer**
+
+Useful for advanced users cleaning old drivers.
+
+---
+
+> [!TIP]
+>
+> Recommended GPU driver workflow:
+>
+> 1. Use **DDU** when switching GPU brands or fixing driver problems.
+> 2. Use **NVCleanstall** for a cleaner NVIDIA installation.
+> 3. Keep chipset and motherboard drivers updated from official sources.
+
+---
+
+# 💿 Windows Installation
+
+Tools for creating bootable media, managing Windows installation files, and installing operating systems.
+
+> [!NOTE]
+> Always download Windows images and installation tools from trusted sources.
+
+| Tool | ⭐ | 💰 | 🔓 | Difficulty | Description |
+|------|:--:|:--:|:--:|:----------:|-------------|
+| [Rufus](https://rufus.ie/) | ⭐ | 🆓 | 🔓 | 🟢 Easy | Fast and reliable tool for creating bootable USB drives from ISO files. |
+| [Ventoy](https://www.ventoy.net/) | ⭐ | 🆓 | 🔓 | 🟢 Easy | Boot multiple ISO files from one USB drive without reformatting. |
+| [Media Creation Tool](https://www.microsoft.com/software-download/windows11) | ⭐ | 🆓 | ❌ | 🟢 Easy | Official Microsoft tool for creating Windows installation media. |
+| [NTLite](https://www.ntlite.com/) | ⭐ | Free/Paid | ❌ | 🔴 Advanced | Customize Windows installation images by removing components and adding configurations before installation. |
+
+---
+
+## 🏅 Editor's Picks
+
+🥇 **Ventoy**
+
+The easiest way to carry multiple operating system installers on one USB drive.
+
+🥈 **Rufus**
+
+The best simple ISO-to-USB creation tool.
+
+🥉 **NTLite**
+
+Powerful Windows image customization for advanced users.
+
+---
+
+> [!TIP]
+>
+> Keep a Ventoy USB drive ready with:
+>
+> - Windows installer ISO
+> - Linux ISO
+> - Recovery tools
+> - Hardware testing utilities
+
+---
+
+# 📦 Package Managers
+
+Install, update, and manage Windows applications quickly from trusted repositories.
+
+> [!NOTE]
+> Package managers help automate software installation and updates while reducing the need to search for individual installers.
+
+| Tool | ⭐ | 💰 | 🔓 | Difficulty | Description |
+|------|:--:|:--:|:--:|:----------:|-------------|
+| [winget](https://github.com/microsoft/winget-cli) | ⭐ | 🆓 | 🔓 | 🟢 Easy | Official Windows package manager from Microsoft for installing and updating applications through the command line. |
+| [Chocolatey](https://chocolatey.org/) | ⭐ | 🆓 / Paid | 🔓 | 🟡 Intermediate | Popular Windows package manager with thousands of available packages. |
+| [Scoop](https://scoop.sh/) | ⭐ | 🆓 | 🔓 | 🟡 Intermediate | Command-line installer focused on lightweight applications and developer tools. |
+| [Ninite](https://ninite.com/) | ⭐ | 🆓 | ❌ | 🟢 Easy | Simple installer that automatically downloads and installs popular Windows applications without bundled software. |
+| [Patch My PC Home Updater](https://patchmypc.com/home-updater) | ⭐ | 🆓 | ❌ | 🟢 Easy | Automatically installs and updates many common Windows applications. |
+
+---
+
+## 🏅 Editor's Picks
+
+🥇 **winget**
+
+The official Windows package manager and the best starting point for most users.
+
+🥈 **Scoop**
+
+Excellent for developers and users who prefer command-line tools.
+
+🥉 **Ninite**
+
+The easiest option for quickly setting up a fresh Windows installation.
+
+---
+
+> [!TIP]
+>
+> Setting up a new PC?
+>
+> Use:
+>
+> - **winget** → Install everyday applications
+> - **Ninite** → Quickly install common programs
+> - **Scoop** → Install developer tools
+> - **Chocolatey** → Manage larger software collections
+
+---
+
+# 🗑️ Uninstallers
+
+Remove unwanted applications, leftover files, and software remnants that the built-in Windows uninstaller may leave behind.
+
+> [!NOTE]
+> Third-party uninstallers can remove leftover files, folders, and registry entries. Always review what is being removed before confirming deletion.
+
+| Tool | ⭐ | 💰 | 🔓 | Difficulty | Description |
+|------|:--:|:--:|:--:|:----------:|-------------|
+| [Bulk Crap Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller) | ⭐ | 🆓 | 🔓 | 🟢 Easy | Powerful open-source uninstaller that can remove multiple programs and scan for leftovers. |
+| [Revo Uninstaller](https://www.revouninstaller.com/) | ⭐ | 🆓 / Paid | ❌ | 🟢 Easy | Popular uninstaller with advanced leftover scanning and cleanup features. |
+| [HiBit Uninstaller](https://www.hibitsoft.ir/Uninstaller.html) | ⭐ | 🆓 | ❌ | 🟢 Easy | Lightweight uninstaller with program removal, junk cleanup, and startup management tools. |
+| [Geek Uninstaller](https://geekuninstaller.com/) | ⭐ | 🆓 / Paid | ❌ | 🟢 Easy | Simple portable uninstaller focused on speed and ease of use. |
+
+---
+
+## 🏅 Editor's Picks
+
+🥇 **Bulk Crap Uninstaller**
+
+The best free open-source choice for removing applications and leftovers.
+
+🥈 **Revo Uninstaller**
+
+A polished option with excellent cleanup features.
+
+🥉 **Geek Uninstaller**
+
+Perfect for users who want a small portable tool.
+
+---
+
+> [!TIP]
+>
+> Removing stubborn software?
+>
+> Try:
+>
+> 1. **Bulk Crap Uninstaller** → Scan and remove leftovers
+> 2. **Revo Uninstaller** → Deep cleanup
+> 3. **Geek Uninstaller** → Quick portable removal
+
+---
+
+# 🖥️ System Utilities
+
+Essential Windows utilities for managing files, processes, storage, archives, and everyday system tasks.
+
+> [!NOTE]
+> These tools are generally safe for most users, but advanced utilities may expose settings and information intended for experienced users.
+
+| Tool | ⭐ | 💰 | 🔓 | Difficulty | Description |
+|------|:--:|:--:|:--:|:----------:|-------------|
+| [Microsoft Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/) | ⭐ | 🆓 | ❌ | 🟡 Intermediate | Official Microsoft collection of advanced troubleshooting and system administration tools. |
+| [Everything](https://www.voidtools.com/) | ⭐ | 🆓 | ❌ | 🟢 Easy | Extremely fast file search utility that is much faster than Windows Search. |
+| [7-Zip](https://www.7-zip.org/) | ⭐ | 🆓 | 🔓 | 🟢 Easy | Open-source file archiver supporting many compression formats. |
+| [Windows Terminal](https://github.com/microsoft/terminal) | ⭐ | 🆓 | 🔓 | 🟢 Easy | Modern terminal application supporting Command Prompt, PowerShell, WSL, and more. |
+| [PowerShell](https://github.com/PowerShell/PowerShell) | ⭐ | 🆓 | 🔓 | 🟡 Intermediate | Powerful cross-platform automation and scripting environment from Microsoft. |
+| [WizTree](https://diskanalyzer.com/) | ⭐ | 🆓 / Paid | ❌ | 🟢 Easy | Quickly analyzes disk usage and finds large files consuming storage space. |
+| [TreeSize Free](https://www.jam-software.com/treesize_free) | ⭐ | 🆓 | ❌ | 🟢 Easy | Visual disk space analyzer for finding large folders and files. |
+
+---
+
+## 🏅 Editor's Picks
+
+🥇 **Everything**
+
+The fastest and most useful file search replacement for Windows.
+
+🥈 **Sysinternals Suite**
+
+An essential toolkit for advanced troubleshooting and system management.
+
+🥉 **7-Zip**
+
+A lightweight archive tool every Windows installation should have.
+
+---
+
+> [!TIP]
+>
+> Useful everyday setup:
+>
+> - **Everything** → Find files instantly
+> - **7-Zip** → Open compressed files
+> - **WizTree** → Find storage hogs
+> - **Windows Terminal** → Better command-line experience
+> - **Sysinternals** → Diagnose advanced problems
+
+---
+
+# 📊 Monitoring
+
+Monitor hardware health, temperatures, performance, sensors, and system information.
+
+> [!NOTE]
+> Monitoring tools do not usually improve performance directly. They help you understand what your hardware is doing and identify possible problems.
+
+| Tool | ⭐ | 💰 | 🔓 | Difficulty | Description |
+|------|:--:|:--:|:--:|:----------:|-------------|
+| [HWiNFO](https://www.hwinfo.com/) | ⭐ | 🆓 | ❌ | 🟢 Easy | Advanced hardware monitoring tool showing temperatures, voltages, clocks, power usage, and sensor data. |
+| [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html) | ⭐ | 🆓 | ❌ | 🟢 Easy | Displays detailed CPU, motherboard, memory, and system information. |
+| [GPU-Z](https://www.techpowerup.com/gpuz/) | ⭐ | 🆓 | ❌ | 🟢 Easy | Provides detailed information about graphics cards, sensors, and GPU features. |
+| [CrystalDiskInfo](https://crystalmark.info/en/software/crystaldiskinfo/) | ⭐ | 🆓 | 🔓 | 🟢 Easy | Monitors HDD and SSD health, temperatures, SMART data, and drive status. |
+| [Libre Hardware Monitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor) | ⭐ | 🆓 | 🔓 | 🟡 Intermediate | Open-source hardware monitoring tool supporting many sensors and devices. |
+| [Open Hardware Monitor](https://openhardwaremonitor.org/) | ⭐ | 🆓 | 🔓 | 🟢 Easy | Open-source hardware monitoring application for temperatures and system sensors. |
+
+---
+
+## 🏅 Editor's Picks
+
+🥇 **HWiNFO**
+
+The most complete hardware monitoring solution for enthusiasts and professionals.
+
+🥈 **CrystalDiskInfo**
+
+The easiest way to check SSD and HDD health.
+
+🥉 **GPU-Z**
+
+A lightweight tool for detailed graphics card information.
+
+---
+
+> [!TIP]
+>
+> Checking PC health?
+>
+> - **HWiNFO** → Temperatures, power, sensors
+> - **CrystalDiskInfo** → SSD/HDD health
+> - **CPU-Z** → Processor and RAM details
+> - **GPU-Z** → Graphics card information
+
+---
